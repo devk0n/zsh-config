@@ -27,3 +27,20 @@ alias ports='ss -tulwn'               # list open network ports
 
 # --- Editor ---
 alias vim='nvim'
+
+# --- Functions ---
+espidf() {
+  export IDF_PATH="$HOME/esp/esp-idf/"
+  . $IDF_PATH/export.sh
+  echo "ESP-IDF environment activated"
+}
+
+stm32() {
+  export PATH="$HOME/toolchains/gcc-arm-none-eabi-10.3/bin:$PATH"
+  echo "STM32 toolchain activated"
+}
+
+jlink() {
+  export PATH="/opt/SEGGER/JLink:$PATH"
+  echo "J-Link tools activated"
+}
