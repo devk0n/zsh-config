@@ -2,7 +2,7 @@
 source "$ZDOTDIR/env.zsh"
 source "$ZDOTDIR/options.zsh"
 source "$ZDOTDIR/history.zsh"
-source "$ZDOTDIR/keybindings.zsh"
+source "$ZDOTDIR/keybinds.zsh"
 source "$ZDOTDIR/aliases.zsh"
 source "$ZDOTDIR/plugins.zsh"
 source "$ZDOTDIR/prompt.zsh"
